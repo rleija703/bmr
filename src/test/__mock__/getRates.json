@@ -1,0 +1,104 @@
+{
+    "rates": {
+      "Fixed15Year": {
+        "query": {
+          "creditScoreBucket": "VeryHigh",
+          "loanAmountBucket": "Conforming",
+          "loanToValueBucket": "Normal",
+          "program": "Fixed15Year"
+        },
+        "samples": [
+          {
+            "rate": 6.085,
+            "time": "2016-03-15T00:00:00-07:00",
+            "volume": 0
+          },
+          {
+            "rate": 6.037,
+            "time": "2016-03-16T00:00:00-07:00",
+            "volume": 0
+          },
+          {
+            "rate": 6.077,
+            "time": "2016-03-17T00:00:00-07:00",
+            "volume": 0
+          },
+          {
+            "rate": 6.054,
+            "time": "2016-03-18T00:00:00-07:00",
+            "volume": 0
+          },
+          {
+            "rate": 6.585,
+            "time": "2016-03-19T00:00:00-07:00",
+            "volume": 0
+          },
+          {
+            "rate": 10,
+            "time": "2016-03-20T00:00:00-07:00",
+            "volume": 0
+          },
+          {
+            "rate": 6.098,
+            "time": "2016-03-21T00:00:00-07:00",
+            "volume": 0
+          },
+          {
+            "rate": 6.099,
+            "time": "2016-03-22T00:00:00-07:00",
+            "volume": 0
+          },
+          {
+            "rate": 6.079,
+            "time": "2016-03-23T00:00:00-07:00",
+            "volume": 0
+          },
+          {
+            "rate": 6.11,
+            "time": "2016-03-24T00:00:00-07:00",
+            "volume": 0
+          }
+        ]
+      },
+      "Fixed30Year": {
+        "query": {
+          "creditScoreBucket": "VeryHigh",
+          "loanAmountBucket": "Conforming",
+          "loanToValueBucket": "Normal",
+          "program": "Fixed30Year"
+        },
+        "samples": [
+          {
+            "rate": 6.004,
+            "time": "2016-03-15T00:00:00-07:00",
+            "volume": 0
+          },
+          {
+            "rate": 6.094,
+            "time": "2016-03-16T00:00:00-07:00",
+            "volume": 0
+          },
+          {
+            "rate": 6.08,
+            "time": "2016-03-17T00:00:00-07:00",
+            "volume": 0
+          },
+          {
+            "rate": 6.037,
+            "time": "2016-03-18T00:00:00-07:00",
+            "volume": 0
+          },
+          {
+            "rate": 6.844,
+            "time": "2016-03-19T00:00:00-07:00",
+            "volume": 0
+          },
+          {
+            "rate": 9.125,
+            "time": "2016-03-20T00:00:00-07:00",
+            "volume": 0
+          }
+        ]
+      }
+    }
+  }
