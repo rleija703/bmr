@@ -1,4 +1,6 @@
-import './style';
+import './styles/reset';
+import './styles/variables';
+import './styles/style';
 import { Component } from 'preact';
 
 export default class App extends Component {
