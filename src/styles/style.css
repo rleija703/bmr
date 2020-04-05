@@ -3,6 +3,11 @@ html, body {
 	font-weight: 400;
 }
 
-h1 {
-	text-align: center;
+html {
+	min-height: 100%;
+	display: flex;
+}
+
+body {
+	flex: 1;
 }
