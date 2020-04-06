@@ -3,6 +3,10 @@
   "name": "bert-mortgage-rates",
   "version": "0.0.0",
   "license": "MIT",
+  "contributors": [
+    "ruben.leija@me.com",
+    "jordan.cervantes1@me.com"
+  ],
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run -s serve || npm run -s dev",
     "build": "preact build",
@@ -17,6 +21,7 @@
     "build/*"
   ],
   "devDependencies": {
+    "@types/classnames": "^2.2.10",
     "css-loader": "^1.0.1",
     "eslint": "^6.0.1",
     "eslint-config-synacor": "^3.0.4",
@@ -28,6 +33,7 @@
     "typings-for-css-modules-loader": "^1.7.0"
   },
   "dependencies": {
+    "classnames": "^2.2.6",
     "preact": "^10.1.0",
     "preact-render-to-string": "^5.1.2"
   }
