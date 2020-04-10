@@ -1,0 +1,88 @@
+.websiteRanks-container {
+    margin-left: 42px;
+    margin-right: 42px;
+    padding: 24px 0 23px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.4;
+    color: #222;
+}
+
+.websiteRanks-mobileTitle{
+    display: none;
+}
+
+h3{
+    font-size: 1.875rem;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6, p, table {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+.websiteRanks-item {
+    position: relative;
+    overflow: hidden;
+    max-width: 33.33%;
+    padding: 0 16px;
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+
+.websiteRanks-list {
+    list-style: none;
+}
+
+.websiteRanks-header {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.websiteRanks-title {
+    margin: 0 39px 0 32px;
+}
+
+.websiteRanks-titleIcon {
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin: 2px 8px 0 -32px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.websiteRanks-titleText, .websiteRanks-titleMobileText {
+    float: left;
+    margin: 0;
+    max-width: 100%;
+    font-size: 1.25rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 28px;
+    color: #1e3651;
+}
+
+.websiteRanks-titleInfoIcon {
+    float: left;
+    width: 22px;
+    margin: 1px -36px 0 14px;
+    font-size: 1.1875rem;
+    color: #aaa;
+}
+
+websiteRanks-nameText {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #4594ea;
+}
