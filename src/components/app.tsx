@@ -2,6 +2,8 @@ import { h, FunctionalComponent } from 'preact';
 
 import Hero from './hero';
 
+import StatWidget from './StatWidget';
+
 import styles from './app.module.css';
 
 const App: FunctionalComponent = () => (
@@ -9,5 +11,8 @@ const App: FunctionalComponent = () => (
     <Hero />
   </div>
 );
+<div>
+  <StatWidget />
+</div>
 
 export default App;
